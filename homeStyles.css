@@ -1,0 +1,517 @@
+ /* main page style  */
+
+    
+    #main{
+        width: 100%;
+    }
+    #nav{
+    display:flex;
+    width: 100%;
+    background:rgb(16,132,126);
+    border: 1px solid rgb(16,132,126);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    }
+    .second{     
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 20px;
+    margin: 30px 10px 0px 30px;
+    }
+    .second>div{
+        margin: 40px 30px 0px 35px;
+    }
+    #nav>div:hover{
+    text-decoration: underline;
+    }
+    #booksec{
+        width: 100%;
+        height: 200px;
+        display: flex;
+    }
+    #booksec>div{
+        width: 35%;
+        height: 100%;
+        margin: 0 1% 0 1%;
+        background-color: #cef0ea;
+        border-radius: 20px;
+        display: flex;
+        
+    }
+    .order1{
+        width:50%;
+        height: 100%;
+    }
+    .order1>h2{
+        text-align: center;
+        margin-top:30%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+    }
+    .order2{
+        width: 60%;
+        height: 100%;
+    }
+    .pic{
+        width: 100%;
+        height: 100%;
+    }
+    button{
+        background:rgb(59,184,150);
+        color:white;
+        width:130px;
+        height:50px;
+        margin-left:15%;
+        margin-top:20px;
+        border-radius: 10px;
+        border: 0;
+    }
+    #off_bar{
+        width: 100%;
+        height: 100px;
+        margin-top: 90px;
+        display: flex;
+        border-radius: 10px;
+        background-color: #a291fa;
+    }
+    .box1{
+        width: 20%;
+        height:60%;
+        margin: 20px 0 0 25px;
+    }
+    .box2{
+        width: 55%;
+        margin-left: 30px;
+    } 
+    .box2>p{
+        color:white;
+        font-size: 25px;
+        margin-top: 8px;
+    }
+    .box3{
+        width: 15%;
+        height: 150px;
+        margin-top: -50px;
+        margin-left: 3%;
+    }
+    #sfty{
+        width: 100%;
+        height: 120px;
+        margin-top: 70px;
+        display: flex;
+    }
+    .step{
+        width: 25%;
+        height: 100%;
+    } 
+    .temp{
+        width: 13%;
+        height: 100%;
+        margin-left: 30px;
+    }
+    #offer{
+        width: 100%;
+        height: 220px;
+        margin-top: 70px;
+
+    }
+    .top{
+        margin-top: 20px;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        
+    }
+    .pic3{
+        width: 3%;
+        height: 100%;
+        
+    }
+    .top_sid{
+        width: 12%;
+        height: 100%;
+        margin-left: 67%;
+    }
+    .top_sid>h2{
+        margin-top: 2px;
+        color: teal;
+    }
+    .top>h2{
+        margin-top: 4px; 
+        margin-left: 22px;
+        color: #4f585e;
+    }
+    #freq{
+        width: 100%;
+        height: 300px;
+        background-color: #d4e2fa;
+        border: 1px solid #d4e2fa;
+        margin-top: 70px;
+    }
+    .lbox{
+        width: 100%;
+        height: 15%;
+        margin-top: 50px;
+
+        display: flex;
+
+    }
+    .lbox>h2{
+        margin-top: 4px; 
+        margin-left: 5px;
+        color: #4f585e;
+        
+    }
+    .lbox_sid{
+        width: 8%;
+        height: 100%;
+        margin-left: 67%;
+        border: 1px solid blue;
+    }
+    .pic_box{
+        width: 100%;
+        height: 200px;
+        display: flex;
+
+    }
+    .ftext{
+        width: 20%;
+        height: 70%;
+        margin-top: 15px;
+
+    }
+    .freq_slid{
+        width: 80%;
+        height: 130%;
+        margin-top: 15px;
+        border: 1px solid red;
+    }
+    .ftext>p{
+        color: rgb(88, 85, 85);
+        font-size: 18px;
+        
+        margin-top: 2px;
+    }
+    .mgn{
+        margin-top: 5px;
+        margin-bottom: 0%;
+    }
+    #branda{
+        width: 100%;
+        height: 40px;
+        display: flex;
+        margin-top: 50px;
+       
+        
+    }
+    #branda>h2{
+        margin-top: 1px;
+        margin-left: 6px;
+        color: rgb(88, 85, 85);
+    }
+    .brand_sid{
+        width: 8%;
+        height: 100%;
+        margin-left: 77%;
+        border: 1px solid blue;
+    }
+    .feat_brand{
+        margin-top: 30px;
+        
+    }
+    #look_bar{
+        width: 100%;
+        height: 150px;
+        margin-top: 70px;
+    }
+    #deals{
+        width: 100%;
+        height: 350px;
+        background-color: #fff2f2;
+        border: 1px solid #fff2f2;
+        
+    }
+    #timr>h2{
+        margin-top: 25px;
+        margin-left: 35px;
+        color: rgb(88, 85, 85);
+    }
+   
+    
+    #timr{
+        width: 100%;
+        height: 60px;
+        display: flex;
+
+        margin-top: 35px;
+    }
+    .f_brand{
+
+        height: 78%;
+    }
+    .off_slid{
+        width: 100%;
+        height: 80%;
+    }
+    
+    .swp{
+        width: 100%;
+        border-radius: 20px;
+    }
+   
+
+     /* slid show part style */
+    
+
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 100%;
+          position: relative;
+          margin: auto;
+        }
+        .mySlides>img{
+            width: 100%;
+        }
+        
+        /* Next & previous buttons */
+        .prev1, .next1 {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next1 {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+          
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev1:hover, .next1:hover {
+          background-color: rgba(0,0,0,0.8);
+          
+        }
+        
+        /* Caption text */
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+          
+        }
+        
+        
+        /* The dots/bullets/indicators */
+        .dot1 {
+          cursor: pointer;
+          height: 8px;
+          width: 8px;
+          margin: -10px 4px 20px 4px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+         
+          /* transition: background-color 0.6s ease; */
+        }
+        
+        .active, .dot1:hover {
+          background-color: #717171;
+        }
+        
+        
+        
+        
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .prev1, .next1,.text {font-size: 11px}
+        }
+   
+
+         /* metadata  */
+    
+    #meddata{
+        display: flex;
+        overflow: auto;
+        /* background-color: white; */
+        /* width: 100%; */
+    }
+    .fontbold{
+        font-weight: bold;
+    }
+    .outerbx{
+        /* width: 50%; */
+        margin-left: 10px;
+       
+        /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+        
+        
+        
+    }
+    .outerbx>div:nth-child(1){
+        /* width: 100%; */
+        /* height: 120px; */
+        
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .outerbx>div:nth-child(2){
+        overflow: hidden;
+        
+    }
+    .outerbx>div>img{
+        height: 100px;
+        /* width: 100%; */
+    }
+    .pricebx{
+        display: flex;
+        justify-content: space-between;
+    }
+    #textbx{
+        height: 50px;
+        overflow: hidden;
+    }
+
+     /* last imagesetup  */
+    
+        #lastimg{
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            
+        }
+        #lastboximg{
+            color: rgb(79,88,94);
+        }
+    
+
+       /* bottom  */
+    
+        #lastborder{
+            width: 90%;
+            margin: auto;
+        }
+         #paracont >p,li{
+          color:grey;
+        }
+        #bottom{
+          display:grid;
+          grid-template-columns: repeat(4,1fr);
+          grid-gap:20px;
+        }
+        #bottom>div>div{
+          color:grey;
+        }
+        h3{
+          color:black;
+        }
+        #bottom>div:hover{
+          cursor: pointer;
+        }
+        
+        #social{
+          display:grid;
+          grid-template-columns: repeat(4,1fr);
+          grid-gap:10px;
+        }
+        
+        #social>div{
+          border-radius: 10px;
+          width:62px;
+          height:62px;
+          margin-top:50px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+        #social>div>img{
+          width:60px;
+          border-radius: 10px;
+        }
+        #payment{
+          display:grid;
+          grid-template-columns: repeat(12,1fr);
+        }
+        .oder1>button,.order2>button,.order3>button:hover{
+          cursor: pointer;
+        }
+        #view{
+          color:rgb(73, 162, 221);
+          margin-left:60%;
+        }
+        #view:hover{
+          text-decoration: underline;
+          cursor: pointer;
+        }
+        .second>div:hover{
+          cursor:pointer;
+        }
+    
+    
+
+        
+        #offersec {
+            display: flex;
+            overflow: auto;
+
+            /* white-space: nowrap; */
+        }
+
+        #outer {
+            display: flex;
+
+            width: 25%;
+            border: 1px solid black;
+            margin-left: 10px;
+            border-radius: 10px;
+
+
+
+        }
+
+        #outer>div:nth-child(1) {
+            width: 30%;
+
+        }
+
+        #outer>div:nth-child(2) {
+            width: 60%;
+
+            white-space: nowrap;
+            overflow: hidden;
+            /* text-overflow: ellipsis; */
+
+        }
+    
+
+ 
+        #brand {
+            display: flex;
+            overflow: auto;
+
+        }
+
+        .brandnam {
+
+
+            margin-left: 20px;
+        }
+ 
+
+   
+   
+
+
